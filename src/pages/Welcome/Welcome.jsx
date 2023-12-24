@@ -4,12 +4,9 @@ import './welcome.css';
 import { Navbar } from '../../components/Navbar/Navbar';
 const Welcome = () => {
   return (
-    <div>
-    <header>
+    <div className="Welcome">
     <Navbar/>
-    </header>
-    </div>
-  )
+    </div>  )
 }
 
 export default Welcome
