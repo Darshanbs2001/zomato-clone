@@ -1,1 +1,42 @@
+  .Welcome{
+    width:100%;
+    font-family:Sans-Serif;
     
+}
+.bg-img{
+    width:100%;
+    height:100%;
+    z-index: -1;
+    position: absolute;
+}
+.navigation-bar{
+    position:relative;
+    height:75dvh;
+}
+.header{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    gap:10px;
+    font-size:0.8rem;
+    font-weight: normal;
+    justify-content: space-between;
+}
+.right li{
+    font-size: inherit;
+    opacity:0.9;
+}
+ul,a{
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    width:100%;
+    object-fit:cover;
+}
